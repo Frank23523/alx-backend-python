@@ -130,4 +130,4 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         ]
         self.assertEqual(
             client.public_repos(license="apache-2.0"), apache2_repos
-            )
+        )
